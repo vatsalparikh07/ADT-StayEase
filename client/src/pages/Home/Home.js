@@ -26,12 +26,6 @@ const Heading = styled.h1`
     margin-bottom: 30px;
 `;
 
-const SmallText = styled.p`
-    font-size: 1rem;
-    color: #000; /* Black text color */
-    text-align: center;
-`;
-
 const Home = () => {
     const { setPage } = useContext(GlobalContext);
 
@@ -49,10 +43,6 @@ const Home = () => {
                     padding: '20px',
                     borderRadius: '10px'
                 }} />
-                <SmallText>
-                    Admin ID: admin2023@gmail.com<br />
-                    Admin password: 1234
-                </SmallText>
             </HomeContainer>
         </PageContainer>
     );
