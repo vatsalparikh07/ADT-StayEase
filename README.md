@@ -48,8 +48,62 @@ Data preprocessing techniques were applied to clean the dataset using techniques
 
 Data normalization was employed to design an efficient database schema along with defining constraints and relationships. Specifically, entities such as Location, Property, Room, and Ratings were defined, and constraints like Primary Key, Foreign Key, Not Null, Check, Unique were implemented.
 
+
 The preprocessed data was then modeled into MongoDB schemas. A MongoDB Cluster named hotel_booking_app was hosted, and subsequent collections were created:
 1. Bookings: Contains data of hotel reservations made by users.
 2. Hotels: Contains data of the hotels listed on the website.
 3. Rooms: Contains data of the different room types for each hotel.
 4. Users: Contains data of the user and admin profiles.
+
+## Functionalities
+
+1. **User Registration**
+   - Allows new users to create an account on the "StayEase" platform.
+   - Users provide personal information: name, username, email address, date of birth, and password.
+   
+   ![Registration Page](https://github.com/vatsalparikh07/ADT-StayEase/assets/65659649/55e2a28f-5c44-423f-8ccb-adffb0fa5483)
+
+2. **Hotel Search**
+   - Enables users to search for hotels based on location (city or area), check-in and check-out dates, and number of guests.
+   
+![image](https://github.com/vatsalparikh07/ADT-StayEase/assets/65659649/b2533c79-609b-4ce9-891b-c302eaaeb79a)
+
+3. **Hotel Listing**
+   - Displays a list of hotels that meet the user's search criteria.
+   - Includes hotel name, location, star rating, pricing, room availability, and amenities overview.
+   
+![image](https://github.com/vatsalparikh07/ADT-StayEase/assets/65659649/9646aba4-73b0-4840-a0c0-a648447ad2a4)
+
+4. **Hotel Description**
+   - Provides detailed information about a specific hotel.
+   - Includes hotel description, manager details, room types, pricing details, amenities, and room availabilities.
+   
+![image](https://github.com/vatsalparikh07/ADT-StayEase/assets/65659649/ab4f9755-0f3c-436f-90b5-9dd72e84317a)
+
+5. **Hotel (Room) Booking**
+   - Allows users to securely book their preferred room type and complete the reservation process.
+   - Involves selecting the room type, entering guest details, and providing payment information.
+   
+![image](https://github.com/vatsalparikh07/ADT-StayEase/assets/65659649/afed7060-d298-4500-a30f-76ab7441c0e6)
+
+6. **Hotel Booking Confirmation**
+   - After successful booking, users receive confirmation including check-in and check-out dates, room type, total cost, etc.
+   
+![image](https://github.com/vatsalparikh07/ADT-StayEase/assets/65659649/fbbb7ef5-8988-4244-8b60-3a04a3dd4333)
+
+7. **Login**
+   - Allows existing users to access their account.
+   - Users enter their registered email address (or username) and password.
+   
+![image](https://github.com/vatsalparikh07/ADT-StayEase/assets/65659649/210c9bd9-0413-46a9-b961-2a32c840e0dd)
+
+8. **Admin Dashboard**
+   - Interface for hotel managers or administrators to manage listed properties.
+   - Functionalities include:
+     - Managing and viewing bookings for properties.
+     - Updating room availability and viewing today's bookings.
+     - Managing property information such as descriptions, amenities, pricing, etc.
+   
+![image](https://github.com/vatsalparikh07/ADT-StayEase/assets/65659649/ae305df9-6b81-4a5a-a712-16462edfe1ca)
+   
+![image](https://github.com/vatsalparikh07/ADT-StayEase/assets/65659649/83fe1d7d-954d-45e7-aa3b-e5d6ab327bb3)
