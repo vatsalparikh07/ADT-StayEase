@@ -1,8 +1,6 @@
 # StayEase: Simplified Hotel Booking Solution
-
-## Links
-- [YouTube Video](https://www.youtube.com/watch?v=lPtjPyWZ6ro)
 - [Project Website](https://adt-stay-ease-web-app.vercel.app/)
+- [YouTube Video](https://www.youtube.com/watch?v=lPtjPyWZ6ro) 
 
 ## Purpose
 The purpose of our project was to develop a user-friendly web application that helps travelers easily find and book hotels in India. The application utilizes a dataset from Kaggle of over 4,000 hotels extracted from the Goibibo travel website, providing detailed information on amenities, ratings, reviews, and pricing. The key objectives were to create a well-organized database system to store and manage the hotel data, build an interactive interface that allows users to search, filter, and compare hotels based on their preferences, and enable convenient hotel booking directly through the application. The web app also provides hotel managers with a dashboard to monitor and manage their properties listed on the StayEase platform by viewing the total bookings, room availabilities, and customer booking information.
