@@ -1,5 +1,4 @@
 # StayEase: Simplified Hotel Booking Solution
-- [Project Website](https://adt-stay-ease-web-app.vercel.app/)
 - [YouTube Video](https://www.youtube.com/watch?v=lPtjPyWZ6ro) 
 
 ## Purpose
